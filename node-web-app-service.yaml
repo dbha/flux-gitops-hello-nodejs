@@ -2,6 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: node-web-app-service
+  namespace: myapp
 spec:
   type: LoadBalancer
   selector:
