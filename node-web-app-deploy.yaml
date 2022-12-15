@@ -16,7 +16,7 @@ spec:
       imagePullSecrets:
       - name: harbor-secret
       containers:
-      - image: harborapp.dha-tkgdemo.net/tanzu/hello-nodejs@sha256:875da905d42ee2d4969bf1392e6482f2945d6a4c3e828d9b3f42ba63f9dc95ba  # dbha/hello-nodejs-demo:latest
+      - image: harborapp.dha-tkgdemo.net/tanzu/hello-nodejs@sha256:ac6cbe03cc25e8a8334e199ce54154c8bd116a3c93fe24656297465db7f4e989  # dbha/hello-nodejs-demo:latest
         imagePullPolicy: Always
         name: node-web-app
         ports:
